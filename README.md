@@ -7,4 +7,4 @@ UC3-Enter a valid email E.g. abc.xyz@bl.co.in - Email has 3 mandatory parts (abc
 
 UC4-Pre-defined Mobile Format - E.g. 91 9919819801 - Country code follow by space and 10 digit number
 
-UC5-Pre-defined Password rules. (Rule1-minimum 8 Characters,Rule2 -Should have at least 1 Upper Case,Rule3-Should One Special Character & One Numberic Character.
+UC5-Pre-defined Password rules. (Rule1-minimum 8 Characters,Rule2 -Should have at least 1 Upper Case,Rule3-Should One Special Character & One Numberic Number.
