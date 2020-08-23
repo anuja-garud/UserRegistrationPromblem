@@ -26,4 +26,15 @@ else
 fi
 
 
+Epattern="^[A-Za-z0-9]+([._+/-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[a-zA-z]{2,4}([.][a-zA-Z]{2,3})$"
+
+echo "Enter Email"
+read Email
+
+if [[ $Email =~ $Epattern  ]];
+then
+     echo "Valid Mail";
+else
+     echo "Not Valid Mail";
+fi
 
