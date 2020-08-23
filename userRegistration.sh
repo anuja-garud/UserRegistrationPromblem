@@ -58,3 +58,19 @@ else
      echo "No"
 fi
 
+#FORPASSWORDValidation
+
+Ppatterm="([0-9a-zA-Z!@#$]{8,})$"
+
+
+echo "Enter passwd"
+read passwd
+
+if [[ $passwd =~ $Ppattern  ]];
+then
+     echo "VAlid Password";
+else
+     echo "Invalid Password";
+fi
+
+
