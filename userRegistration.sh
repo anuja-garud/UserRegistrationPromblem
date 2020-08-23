@@ -14,3 +14,16 @@ then
 else
      echo "Is Not Valid"
 fi
+
+
+read LastName
+
+if [[ $LastName =~ $pattern ]]
+then
+     echo "Is Valid";
+else
+     echo "Is Not Valid"
+fi
+
+
+
