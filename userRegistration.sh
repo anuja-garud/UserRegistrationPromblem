@@ -15,7 +15,9 @@ else
      echo "Is Not Valid"
 fi
 
+#FORLastNameValidation
 
+echo "Enter LastName"
 read LastName
 
 if [[ $LastName =~ $pattern ]]
@@ -25,6 +27,8 @@ else
      echo "Is Not Valid"
 fi
 
+
+#FOREmailValidation
 
 Epattern="^[A-Za-z0-9]+([._+/-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[a-zA-z]{2,4}([.][a-zA-Z]{2,3})$"
 
@@ -36,5 +40,21 @@ then
      echo "Valid Mail";
 else
      echo "Not Valid Mail";
+fi
+
+
+#FORMobileValidation
+
+Mpattern="^91[ ]([7-9]{1}[0-9]{9})$"
+
+echo "Enter Mobilenumber"
+read MobileNumber
+
+
+if [[ $MobileNumber =~ $Mpattern  ]];
+then
+     echo "YES";
+else
+     echo "No"
 fi
 
