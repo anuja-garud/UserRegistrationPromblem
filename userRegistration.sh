@@ -2,7 +2,7 @@
 
 shopt -s extglob
 
-pattern='^([A-Z]{1})+[a-z]{3,}$'
+pattern='^([A-Z]{1})+[a-z]{2,}$'
 
 echo "Enter firstName"
 read firstName
